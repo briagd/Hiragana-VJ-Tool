@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<OSCOutputGroup>
+  <oscMessage>/wek/outputs</oscMessage>
+  <hostName>localhost</hostName>
+  <outputPort>12000</outputPort>
+  <outputs class="linked-list">
+    <wekimini.osc.OSCClassificationOutput>
+      <name>change colors L stick y</name>
+      <numClasses>7</numClasses>
+      <isSendingDistribution>false</isSendingDistribution>
+    </wekimini.osc.OSCClassificationOutput>
+    <wekimini.osc.OSCClassificationOutput>
+      <name>cosHarmo L stick x</name>
+      <numClasses>8</numClasses>
+      <isSendingDistribution>false</isSendingDistribution>
+    </wekimini.osc.OSCClassificationOutput>
+    <wekimini.osc.OSCClassificationOutput>
+      <name>sinHarmo r stick x</name>
+      <numClasses>8</numClasses>
+      <isSendingDistribution>false</isSendingDistribution>
+    </wekimini.osc.OSCClassificationOutput>
+    <wekimini.osc.OSCClassificationOutput>
+      <name>letterSize r stick y</name>
+      <numClasses>5</numClasses>
+      <isSendingDistribution>false</isSendingDistribution>
+    </wekimini.osc.OSCClassificationOutput>
+    <wekimini.osc.OSCClassificationOutput>
+      <name>R2 inc, 5 values</name>
+      <numClasses>5</numClasses>
+      <isSendingDistribution>false</isSendingDistribution>
+    </wekimini.osc.OSCClassificationOutput>
+    <wekimini.osc.OSCClassificationOutput>
+      <name>changeFunction L2</name>
+      <numClasses>4</numClasses>
+      <isSendingDistribution>false</isSendingDistribution>
+    </wekimini.osc.OSCClassificationOutput>
+  </outputs>
+</OSCOutputGroup>
